@@ -1,0 +1,8 @@
+*.lck
+~*.lck
+*-backups/
+_autosave-*
+*.bak
+*.tmp
+Ref/
+

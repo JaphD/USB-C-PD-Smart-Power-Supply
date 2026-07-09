@@ -1,0 +1,24 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "61ee22e2-f2da-4874-97e2-b7160937277b")
+	(paper "A4")
+	(title_block
+		(title "${project_name}")
+		(date "2026-07-09")
+		(rev "1")
+		(company "Yafet Daniel")
+		(comment 1 "USB-C PD Smart Bench Supply")
+		(comment 2 "CH224A Rev A")
+		(comment 3 "KiCAD 9.0.4")
+		(comment 4 "JLCPCB/LCSC-oriented design")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
