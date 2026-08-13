@@ -1,0 +1,1 @@
+LTspice validation of the TPS259470L EN/UVLO control. A 2N7002 allows the STM32 to disable or reset the eFuse. EFUSE_OFF = HIGH pulls EN/UVLO below 0.74 V; EFUSE_OFF = LOW releases it. A 100 kΩ gate pull-up keeps the output disabled during MCU reset. Simulation verified the expected behavior at 20 V VBUS.
