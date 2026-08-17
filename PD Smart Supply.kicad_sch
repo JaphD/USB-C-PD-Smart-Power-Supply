@@ -12579,7 +12579,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OLED"
+		(property "Value" "HS96L03W2C03"
 			(at 339.09 224.79 0)
 			(effects
 				(font
@@ -14741,7 +14741,7 @@
 				)
 			)
 		)
-		(property "Value" "UP"
+		(property "Value" "TSC01-TBW0FH3.5"
 			(at 92.71 260.35 0)
 			(effects
 				(font
@@ -16423,7 +16423,7 @@
 				)
 			)
 		)
-		(property "Value" "Select"
+		(property "Value" "TSC01-TBW0FH3.5"
 			(at 190.5 260.35 0)
 			(effects
 				(font
@@ -17266,7 +17266,7 @@
 				)
 			)
 		)
-		(property "Value" "Switch"
+		(property "Value" "TSC01-TBW0FH3.5"
 			(at 182.88 199.39 0)
 			(effects
 				(font
@@ -17542,7 +17542,7 @@
 				)
 			)
 		)
-		(property "Value" "Down"
+		(property "Value" "TSC01-TBW0FH3.5"
 			(at 137.16 260.35 0)
 			(effects
 				(font
