@@ -31,15 +31,15 @@ The USB-C input feeds the protected output through the eFuse. A separate buck co
 
 ## Project status
 
-The Rev A schematic and PCB layout have reached a manufacturing-preparation checkpoint. Firmware currently contains STM32 peripheral initialization; PD selection logic, display operation, button handling, and application fault handling remain to be implemented. The ratings above are design targets, not measured performance results.
+The Rev A schematic and four-layer PCB layout are complete and prepared for manufacturing. The repository includes a generated STM32CubeIDE project configured for a 64 MHz system clock, ADC voltage and current sensing, I²C, control and status GPIO, and SWD debugging. PD selection logic, display operation, button handling, and application fault handling remain to be implemented. The ratings above are design targets, not measured performance results.
 
 ## Repository contents
 
 - `PD Smart Supply.kicad_pro`, `.kicad_sch`, and `.kicad_pcb`: KiCad project, schematic, and board layout.
 - `PD Smart Supply.kicad_dru`: project-specific PCB design rules.
-- `Firmware/`: STM32Cube configuration and firmware sources.
+- `Firmware/`: STM32CubeMX configuration, STM32CubeIDE project files, generated firmware sources, and device libraries.
 - `Docs/PD_Smart_Supply_Rev_A_Design_Record.pdf`: design record.
 - `Docs/Sim/`: LTspice eFuse enable/shutdown simulation.
 - `Docs/images/`: PCB layout and 3D render images.
 
-Open `PD Smart Supply.kicad_pro` in KiCad 9 to inspect the hardware. Custom libraries and manufacturer references under `Lib/` and `Docs/Ref/` are excluded from Git, so library paths may need to be restored for editing. `PROJECT_HANDOFF.md` contains earlier design notes; some details predate the current layout.
+Open `PD Smart Supply.kicad_pro` in KiCad 9 to inspect the hardware. Custom libraries and manufacturer references under `Lib/` and `Docs/Ref/` are excluded from Git, so library paths may need to be restored for editing. Open `Firmware/Firmware.ioc` in STM32CubeMX or import `Firmware/` into STM32CubeIDE to inspect or regenerate the firmware project.
